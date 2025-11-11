@@ -39,7 +39,8 @@ int main() {
     }
     
     int kq = timPhanTuItNhat(a, n);
-    printf("phan tu thu nhat la: %d", kq);
+    printf("phan it thu nhat la: %d", kq);
  
 }
+
 
