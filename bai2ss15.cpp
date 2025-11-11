@@ -3,7 +3,7 @@
 #include <time.h>
 int tongChuSo(int n) {
     int tong = 0;
-    n = so(n);
+    n = abs(n);
     if (n == 0) return 0;
     while (n > 0) {
         tong += n % 10;
@@ -19,4 +19,5 @@ int main() {
     printf("Tong cac chu so: %d\n", tongChuSo(n));
     return 0;
 }
+
 
