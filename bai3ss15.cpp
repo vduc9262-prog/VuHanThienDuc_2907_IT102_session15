@@ -10,7 +10,7 @@ int daoNguoc(int n) {
         dao = dao * 10 + n % 10;
         n /= 10;
     }
-    return dau  dao;
+    return dau * dao;
 }
 
 int main() {
@@ -20,5 +20,6 @@ int main() {
     printf("So dao nguoc: %d\n", daoNguoc(n));
 
 }
+
 
 
